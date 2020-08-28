@@ -16,7 +16,6 @@ export const style = {
     width: 440
   },
   section: {
-    marginTop: 50,
-    maxWidth: 330
+    marginTop: 50
   }
 }

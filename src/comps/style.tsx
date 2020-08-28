@@ -5,6 +5,12 @@ export const style = {
     alignSelf: 'center',
     marginTop: 40,
     width: 440
+  },
+  submit: {
+    display: 'flex',
+    width: '100%',
+    justifyContent: 'space-between',
+    alignItems: 'center'
   }
 }
 

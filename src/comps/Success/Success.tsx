@@ -1,8 +1,11 @@
 import React, { useEffect } from 'react'
 import { Result } from 'antd'
-import { useEncryption } from '../hooks'
+import { useEncryption } from '../../hooks'
 
-const Success = () => {
+interface CompProps {
+  section?: number
+}
+const Success: React.FC<CompProps> = () => {
   const [, decrypt] = useEncryption()
 
   useEffect(() => {

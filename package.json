@@ -20,6 +20,7 @@
   },
   "scripts": {
     "start": "craco start",
+    "test": "jest --verbose",
     "build": "craco build",
     "eject": "react-scripts eject"
   },
@@ -39,6 +40,14 @@
     ]
   },
   "devDependencies": {
-    "crypto-js": "^4.0.0"
+    "@babel/preset-env": "^7.11.0",
+    "@babel/preset-react": "^7.10.4",
+    "@babel/preset-typescript": "^7.10.4",
+    "babel-jest": "^26.3.0",
+    "crypto-js": "^4.0.0",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.3",
+    "jest": "^26.4.2",
+    "react-test-renderer": "^16.13.1"
   }
 }

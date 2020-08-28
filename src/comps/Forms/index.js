@@ -1,5 +1,3 @@
 export { default as UserForm } from './User/UserForm'
 export { default as PrivacyForm } from './Privacy/PrivacyForm'
 export { default as Success } from './Success/Success'
-export { default as Header } from './Header'
-export { default as Submit } from './Submit'

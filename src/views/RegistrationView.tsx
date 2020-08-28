@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
-import { UserForm, PrivacyForm, Success, Header } from '../comps'
+import { UserForm, PrivacyForm, Success } from '../comps/Forms'
+import { Header } from '../comps/UI'
 import { style as s } from './style'
 
 const RegistrationView = () => {

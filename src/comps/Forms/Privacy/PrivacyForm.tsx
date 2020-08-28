@@ -1,8 +1,8 @@
 import React from 'react'
 import { Form } from 'antd'
 import { LAYOUT } from '../style'
-import { useEncryption } from '../../hooks'
-import Submit from '../Submit'
+import { useEncryption } from '../../../hooks'
+import { Submit } from '../../UI'
 import AddAgreement from './AddAgreement'
 import { AGGREMENT_FIELDS } from './const'
 

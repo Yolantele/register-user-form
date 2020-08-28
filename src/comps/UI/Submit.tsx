@@ -1,6 +1,6 @@
 import React from 'react'
 import { Form, Button } from 'antd'
-import { LAYOUT } from './style'
+import { LAYOUT } from '../Forms/style'
 import { style } from './style'
 const { Item: Field } = Form
 const { tailFormItemLayout } = LAYOUT

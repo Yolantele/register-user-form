@@ -5,8 +5,8 @@ import AddPassword from './AddPassword'
 import AddEmail from './AddEmail'
 import AddName from './AddName'
 import AddJobRole from './AddJobRole'
-import Submit from '../Submit'
-import { useEncryption } from '../../hooks'
+import { Submit } from '../../UI'
+import { useEncryption } from '../../../hooks'
 const { formItemLayout } = LAYOUT
 
 interface CompProps {

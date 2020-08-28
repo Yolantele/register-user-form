@@ -1,7 +1,7 @@
 import React from 'react'
 import { Form, Input, Tooltip } from 'antd'
 import { QuestionCircleOutlined } from '@ant-design/icons'
-import { RULES } from '../const'
+import { RULES } from './const'
 
 const { Item: Field } = Form
 

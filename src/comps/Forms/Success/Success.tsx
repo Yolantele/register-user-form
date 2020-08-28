@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 import { Result } from 'antd'
-import { useEncryption } from '../../hooks'
+import { useEncryption } from '../../../hooks'
 
 interface CompProps {
   section?: number

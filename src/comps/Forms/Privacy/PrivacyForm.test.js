@@ -12,7 +12,7 @@ describe('PrivacyForm Component', () => {
     shallow(<PrivacyForm />)
   })
 
-  it('contains appropriate child Elements  ', () => {
+  it('contains appropriate child Elements: agreement fields and submit ', () => {
     const wrapper = shallow(<PrivacyForm />)
     expect(wrapper.containsMatchingElement(<Submit />)).toEqual(true)
     expect(wrapper.containsMatchingElement(<Header />)).toEqual(false)

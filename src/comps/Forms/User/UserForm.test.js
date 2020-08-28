@@ -14,7 +14,7 @@ describe('UserForm Component', () => {
     shallow(<UserForm />)
   })
 
-  it('contains appropriate form fields', () => {
+  it('contains appropriate form fields to add name, role, email, passowrd', () => {
     const wrapper = shallow(<UserForm />)
     expect(wrapper.containsMatchingElement(<AddName />)).toEqual(true)
     expect(wrapper.containsMatchingElement(<AddJobRole />)).toEqual(true)
@@ -22,7 +22,7 @@ describe('UserForm Component', () => {
     expect(wrapper.containsMatchingElement(<AddPassword />)).toEqual(true)
   })
 
-  it('contains the appropriate child components', () => {
+  it('contains the appropriate child components Submit but not Header', () => {
     const wrapper = shallow(<UserForm />)
     expect(wrapper.containsMatchingElement(<Submit />)).toEqual(true)
     expect(wrapper.containsMatchingElement(<Header />)).toEqual(false)
